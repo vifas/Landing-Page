@@ -8,7 +8,8 @@
 
 body {
     font-size: 100%;
-    background-image: linear-gradient(rgb(11, 157, 255), rgb(5, 24, 199));
+    background:linear-gradient(rgb(11, 157, 255), rgb(5, 24, 199));
+    background-attachment: fixed;
 }
 
 .cabecalho{
@@ -21,7 +22,7 @@ body {
 }
 
 .cabecalho-img {
-    height: 72px;
+    height: 150px;
 }
 
 .cabecalho-menu {
@@ -39,4 +40,121 @@ body {
 .conteudo {
     margin-bottom: 48px;
     border-top: 0.4px solid rgb(59, 162, 252);
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:  space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: rgb(223, 240, 255)
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color : rgb(223, 240, 255);
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: rgb(223, 240, 255);
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(52, 52, 245);
+}
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgb(0, 172, 252);
+}
+
+.conteudo-principal-imagem {
+    height: 300px;
+    display: block;
+    margin-top:48px;
+    margin-right: centerpx;
+    -webkit-margin-collapse: 100px;
+    border-radius: 25px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid rgb(223, 240, 255);
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(223, 240, 255);
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(223, 240, 255);
+}
+
+.conteudo-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-3 {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+
+section#img1 {
+    background-image: url("fundo1.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.conteudo-3-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(223, 240, 255);
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid rgb(223, 240, 255);;
+}
+
+.rodape-imagem {
+    height: 150px;
+    display: block;
+    margin: 0 auto;
 }
