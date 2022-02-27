@@ -132,19 +132,23 @@ body {
     line-height: 2em;
     padding-left: 30px;
     font-size: 3.5vw;
+    
 }
 
-section#img1 {
-    background-image: url("fundo1.jpg");
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-position: center;
+section#p {
+    background-image: url("");
+    background-size: cover;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    box-shadow: inset 6px 6px 13 0px;
 }
 
 .conteudo-3-paragrafo {
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
     font-size: 18px;
+    background-color: black;
+    width: 400px;
     color: rgb(223, 240, 255);
 }
 
