@@ -23,6 +23,7 @@ body {
 
 .cabecalho-img {
     height: 150px;
+    margin-right: 500px;
 }
 
 .cabecalho-menu {
@@ -135,12 +136,18 @@ body {
     
 }
 
-section#p {
-    background-image: url("");
+section#img1 {
+    background-image: url("fundo1.jpg");
     background-size: cover;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    box-shadow: inset 6px 6px 13 0px;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
+}
+
+section#img1 > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.582);
 }
 
 .conteudo-3-paragrafo {
